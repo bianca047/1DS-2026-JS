@@ -1,28 +1,13 @@
-//DEFINIÇÃO DE VARIÁVEIS
+// CONDICIONAIS
 
-let pessoa = "Nome da pessoa";
-let idadePessoa = 30;
-let alturaPessoa = 1.93;
-let statusPessoa = true;
-let salarioPessoa = 1500;
-let salarioBonus = 100;
+let nota1 = 6;
+let nota2 = 10; 
+let nota3 = 5;
 
-let salarioTotal = salarioBonus + salarioPessoa;
+mediaFinal = nota1 + nota2 + nota3;
 
-console.log( pessoa );
-console.log( idadePessoa );
-console.log( alturaPessoa );
-console.log( statusPessoa );
-console.log( salarioPessoa );
-console.log( salarioBonus );
-console.log( salarioTotal );
-
-//UNINDO TODAS AS INFORMAÇÕES EM UM TEXTO:
-console.log(
-    'O nome digitado foi: '+pessoa+
-    ' a idade digitada foi: '+idadePessoa+
-    ' a altura digitada foi: '+alturaPessoa+
-    ' o status da pessoa é: '+statusPessoa+
-    ' e o salario bonus é :'+salarioBonus+
-    ' e o salario total é: '+salarioTotal+ '!!!'
-)
+if( mediaFinal > 6) {
+    console.log("Aluno aprovado! com nota: " + mediaFinal);
+}else{
+    console.log("Aluno reprovado com nota:" + mediaFinal);
+}

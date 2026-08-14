@@ -1,14 +1,7 @@
-//alert("O carpa capim fica batendo no amiguinho!!!")
+// CRIANDO VARIÁVEIS PARA  O SISTEMA 
 
-console.log("Primeiro código em JS");
-console.log(4+5); 
-console.log( 3 * 4 );
-console.log( true );
-console,log( 3.89 );
+let nome = "Bianca";
+var idade = 15; //não utilize embora esteja no javascript
+const altura = 1.51;
 
-console.log( "Bianca" + " " +23" " + 1.83+ " "+ true):
-
-"powermode.combo.counterEnabled": "hide",
-"powermode.combo.couterSize" 0,
-"powermode.shake.enabled": false:
-
+console.log
